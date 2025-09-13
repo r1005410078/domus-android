@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 全局允许 HTTP -->
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- 注意这里必须写 IP，不要写 http:// -->
+<!--        <domain includeSubdomains="false">114.55.227.206</domain>-->
+        <domain includeSubdomains="false">192.168.2.10</domain>
+    </domain-config>
+</network-security-config>
