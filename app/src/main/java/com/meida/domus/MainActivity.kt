@@ -33,8 +33,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             // "http://192.168.2.10:3001"
             WebViewSafeScreen(
-                "http://192.168.2.10:3001",
-//                "http://114.55.227.206:3000",
+//                "http://192.168.2.10:3001",
+                "http://114.55.227.206:3000",
                 onBack = { finish() },
                 backPressedDispatcher = onBackPressedDispatcher
             )
